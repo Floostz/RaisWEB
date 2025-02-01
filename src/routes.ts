@@ -6,20 +6,16 @@ import AboutData from './pages/about.data';
 import Landing from './landingpage'
 export const routes: RouteDefinition[] = [
   {
-    path: '/',
+    path: '/ss',
     component: Home,
   },
-  {
-    path: '/about',
-    component: lazy(() => import('./pages/about')),
-    data: AboutData,
-  },
+ 
   {
     path: '**',
     component: lazy(() => import('./errors/404')),
   },
   {
-    path: '/landing',
+    path: '/',
     component: lazy(() => import('./landingpage')),
   },
 ];
