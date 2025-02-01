@@ -1,0 +1,220 @@
+/* App.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1a1d23;
+  }
+  
+  .container {
+    background-color: #1a1d23;
+    min-height: 100vh;
+    color: white;
+    margin-left: 100px;
+    padding: 1rem 8rem;
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 25px;
+  }
+  
+  .logo img {
+    height: 24px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+  }
+  
+  .nav-links a:hover {
+    opacity: 1;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .auth-buttons button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .login {
+    background: transparent;
+    color: white;
+  }
+  
+  .signup {
+    background: white;
+    color: #1a1d23;
+  }
+  
+  .hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    height: calc(100vh - 80px);
+    width: 100%;
+    padding-top: 2rem;
+  }
+  
+  .left-section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .floating-card {
+    position: absolute;
+    border-radius: 20px;
+    padding: 1.5rem;
+  }
+  
+  .floating-card.dark {
+    background: #252832;
+    width: 320px;
+    height: 320px;
+    top: 10%;
+    left: 5%;
+  }
+  
+  .floating-card.purple {
+    background: #6c5dd3;
+    width: 380px;
+    height: 380px;
+    top: 25%;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .floating-card.purple p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  
+  .floating-card.small {
+    padding: 1rem;
+    bottom: 15%;
+    left: 15%;
+    width: 280px;
+  }
+  
+  .planet-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #2a2d36;
+    border: 2px solid #3cefaf;
+    box-shadow: 0 0 20px #3cefaf;
+    margin: 0 auto;
+  }
+  
+  .floating-sphere {
+    position: absolute;
+    bottom: 20%;
+    right: 15%;
+    width: 150px;
+    height: 150px;
+    background: #252832;
+    border-radius: 50%;
+  }
+  
+  .right-section {
+    padding: 2rem 0;
+    width: 100%;
+  }
+  
+  .right-section h1 {
+    font-size: 5rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+  
+  .subtitle {
+    color: #8b8b8b;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    max-width: 600px;
+  }
+  
+  .explore-btn {
+    background: #6c5dd3;
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .feature {
+    background: #252832;
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+  
+  .feature-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-icon.quality {
+    background: #3cefaf;
+  }
+  
+  .feature-icon.futuristic {
+    background: #6c5dd3;
+  }
+  
+  .feature h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .feature p {
+    color: #8b8b8b;
+    font-size: 1rem;
+    line-height: 1.4;
+  }

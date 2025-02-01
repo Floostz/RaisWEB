@@ -1,0 +1,57 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a1d24;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logoText {
+  margin-right: 0.5rem;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.navLinks a {
+  color: #a0a0a0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navLinks a:hover {
+  color: white;
+}
+
+.auth {
+  display: flex;
+  gap: 1rem;
+}
+
+.loginBtn, .signUpBtn {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.loginBtn {
+  background: transparent;
+  color: white;
+}
+
+.signUpBtn {
+  background: white;
+  color: #1a1d24;
+}
